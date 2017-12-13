@@ -132,7 +132,7 @@ li a {
     margin-right: 40px;
     margin-top: 0;
     margin-bottom: 0;
-    min-height: 100%;
+    /* min-height: 100%; */
 }
 
 .box {
@@ -196,4 +196,113 @@ li a {
     border-color: black;
     border-style: solid;
     border-width: 2px;
+}
+
+@media screen and (max-width: 980px){
+ .portfolio {
+     min-height: 100%;
+ }
+ 
+    .project1{
+    position: absolute;
+    left: 250px;
+    top: 150px;
+ }
+ .project2{ 
+    position: absolute;
+    left: 250px;
+    top: 375px;
+ }
+ .project3{
+    position: absolute;
+    left: 250px;
+    top: 600px;
+ }
+ .project4{
+    position: absolute;
+    left: 250px;
+    top: 825px;
+ }
+ .project5{
+    position: absolute;
+    left: 250px;
+    top: 1050px;
+ }
+}
+
+@media screen and (max-width: 768px){
+    .sidebar {
+        text-align: center;
+        width: 650px;
+        background-color: #ffffff;
+        position: absolute; 
+        margin-left: 0;
+        top: 1150px;
+      }
+      .project1 {
+        color: #ffffff;
+        font-size: 25px;
+        position: absolute;
+        left: 75px;
+        top: 150px;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+    
+    .project2 {
+        color: #ffffff;
+        font-size: 25px;
+        position: absolute;
+        right: 75px;
+        top: 150px;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+    
+    .project3 {
+        color: #ffffff;
+        font-size: 25px;
+        position: absolute;
+        left: 75px;
+        top: 375px;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+    
+    .project4 {
+        color: #ffffff;
+        font-size: 25px;
+        position: absolute;
+        right: 75px;
+        top: 375px;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+    
+    .project5 {
+        color: #ffffff;
+        font-size: 25px;
+        position: absolute;
+        left: 75px;
+        top: 600px;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+    .portfolio {
+        position: absolute;
+        width: 650px;
+        background-color: #ffffff;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 640px) {
+    
 }
