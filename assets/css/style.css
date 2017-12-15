@@ -81,7 +81,7 @@ li a {
     border-color: #dddddd;
     padding-top: 5%;
     padding-left: 20%;
-    min-height: 100%;
+    /* min-height: 100%; */
 }
     
     
@@ -132,7 +132,7 @@ li a {
     margin-right: 40px;
     margin-top: 0;
     margin-bottom: 0;
-    /* min-height: 100%; */
+    min-height: 100%;
 }
 
 .box {
@@ -199,11 +199,11 @@ li a {
 }
 
 @media screen and (max-width: 980px){
- .portfolio {
+ 
+    .portfolio {
      min-height: 100%;
  }
- 
-    .project1{
+  .project1{
     position: absolute;
     left: 250px;
     top: 150px;
@@ -231,78 +231,163 @@ li a {
 }
 
 @media screen and (max-width: 768px){
+    
     .sidebar {
         text-align: center;
-        width: 650px;
+        width: 95%;
+        /* left: 19px; */
+        right: 0px;
         background-color: #ffffff;
         position: absolute; 
-        margin-left: 0;
-        top: 1150px;
+        margin-bottom: 5%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        margin-top: 2.5%;
+        top: 975px;
       }
-      .project1 {
+    .portfolio {
+        position: absolute;
+        width: 95%;
+        background-color: #ffffff;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 5%;
+        margin-bottom: 2.5%;
+        min-height: 900px;
+    }
+    .content {
+        width: 100%;
+        padding-left: 0%;
+        padding-top: 0%;
+        margin-right:0%;
+        margin-left: 0%;
+        margin-top: 0;
+        /* min-height: 850px; */
+    }
+    .box {
+        width: 38%;
+    }
+    .project1 {
         color: #ffffff;
         font-size: 25px;
         position: absolute;
-        left: 75px;
-        top: 150px;
+        left: 5%;
+        top: 15%;
         border-color: black;
         border-style: solid;
         border-width: 2px;
     }
-    
     .project2 {
         color: #ffffff;
         font-size: 25px;
         position: absolute;
-        right: 75px;
-        top: 150px;
+        left: 52%;
+        top: 15%;
         border-color: black;
         border-style: solid;
         border-width: 2px;
     }
-    
     .project3 {
         color: #ffffff;
         font-size: 25px;
         position: absolute;
-        left: 75px;
-        top: 375px;
+        left: 5%;
+        top: 45%;
         border-color: black;
         border-style: solid;
         border-width: 2px;
     }
-    
     .project4 {
         color: #ffffff;
         font-size: 25px;
         position: absolute;
-        right: 75px;
-        top: 375px;
+        left: 52%;
+        top: 45%;
         border-color: black;
         border-style: solid;
         border-width: 2px;
     }
-    
     .project5 {
         color: #ffffff;
         font-size: 25px;
         position: absolute;
-        left: 75px;
-        top: 600px;
+        left: 5%;
+        top: 75%;
         border-color: black;
         border-style: solid;
         border-width: 2px;
     }
-    .portfolio {
-        position: absolute;
-        width: 650px;
-        background-color: #ffffff;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
+
+
 }
+
+
 @media screen and (max-width: 640px) {
-    
+   .portfolioLine{
+       display: none;
+    }
+   
+    .portfolioTitle {
+       display: none;
+   }
+   
+    .content {
+        min-height: 100%;
+    }
+    .portfolio {
+        min-height: 95%;
+    }
+    .box {
+        width: 90%;
+    }
+    .project1 {
+        color: #ffffff;
+        font-size: 25px;
+        position: absolute;
+        left: 5%;
+        top: 1%;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+    .project2 {
+        color: #ffffff;
+        font-size: 25px;
+        position: absolute;
+        left: 5%;
+        top: 21%;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+    .project3 {
+        color: #ffffff;
+        font-size: 25px;
+        position: absolute;
+        left: 5%;
+        top: 41%;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+    .project4 {
+        color: #ffffff;
+        font-size: 25px;
+        position: absolute;
+        left: 5%;
+        top: 61%;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+    .project5 {
+        color: #ffffff;
+        font-size: 25px;
+        position: absolute;
+        left: 5%;
+        top: 81%;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
 }
