@@ -47,6 +47,10 @@ li a {
     display: block;
     padding: 20px;
 }
+form {
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
 
 #bio {
     margin-right: 15px;
@@ -81,7 +85,7 @@ li a {
     border-color: #dddddd;
     padding-top: 5%;
     padding-left: 20%;
-    /* min-height: 100%; */
+    min-height: 100%;
 }
     
     
@@ -96,6 +100,7 @@ li a {
     margin-right: 40px;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 2%;
 }
 
 .sidebar {
@@ -121,9 +126,12 @@ li a {
     color: #ffffff;
     background-color: #4aaaa5;
     font-size: 30px;
-
 }
 
+.message {
+    height: 250px;
+    width: 95%;
+}
 .portfolio {
     position: absolute;
     width: 650px;
@@ -132,12 +140,12 @@ li a {
     margin-right: 40px;
     margin-top: 0;
     margin-bottom: 0;
-    min-height: 100%;
+    /* min-height: 100%; */
 }
 
 .box {
-    width: 150px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     background-color: #4aaaa5;
     /* border-width: 15px; */
     /* border-color: #0a0a0a; */
@@ -147,8 +155,8 @@ li a {
     color: #ffffff;
     font-size: 25px;
     position: absolute;
-    left: 75px;
-    top: 150px;
+    left: 150px;
+    top: 100px;
     border-color: black;
     border-style: solid;
     border-width: 2px;
@@ -158,8 +166,8 @@ li a {
     color: #ffffff;
     font-size: 25px;
     position: absolute;
-    right: 75px;
-    top: 150px;
+    right: 150px;
+    top: 100px;
     border-color: black;
     border-style: solid;
     border-width: 2px;
@@ -169,8 +177,8 @@ li a {
     color: #ffffff;
     font-size: 25px;
     position: absolute;
-    left: 75px;
-    top: 375px;
+    left: 150px;
+    top: 260px;
     border-color: black;
     border-style: solid;
     border-width: 2px;
@@ -180,8 +188,8 @@ li a {
     color: #ffffff;
     font-size: 25px;
     position: absolute;
-    right: 75px;
-    top: 375px;
+    right: 150px;
+    top: 260px;
     border-color: black;
     border-style: solid;
     border-width: 2px;
@@ -191,13 +199,24 @@ li a {
     color: #ffffff;
     font-size: 25px;
     position: absolute;
-    left: 75px;
-    top: 600px;
+    left: 150px;
+    top: 420px;
     border-color: black;
     border-style: solid;
     border-width: 2px;
 }
-
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+.footertext {
+    color: white;
+}
 @media screen and (max-width: 980px){
  
     /* .portfolio {
@@ -231,9 +250,7 @@ li a {
 }
 
 @media screen and (max-width: 768px){
-    form {
-        padding-left: 2%;
-    }
+
     .name {
         margin-left: 3%;
     }
