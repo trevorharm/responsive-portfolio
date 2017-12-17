@@ -206,6 +206,7 @@ form {
     border-width: 2px;
 }
 .footer {
+    height: 50px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -222,7 +223,24 @@ form {
     /* .portfolio {
      min-height: 100%;
  } */
-  .project1{
+
+ .name {
+     margin-left: 3%;
+ }
+ .navigation {
+     position: absolute;
+     width: 100%;
+    }
+.content {
+    padding-left: 3%;
+    padding-top: 10%;
+   padding-right: 3%;
+}
+.sidebar {
+   right: 50px;
+}
+
+ .project1{
     position: absolute;
     left: 250px;
     top: 150px;
@@ -250,47 +268,52 @@ form {
 }
 
 @media screen and (max-width: 768px){
-
+img {
+    width: 22%;
+}
     .name {
         margin-left: 3%;
     }
     .main {
         position: absolute;
-        width: 95%;
+        width: 90%;
         background-color: #ffffff;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
+        /* margin-left: 2.5%; */
+        /* margin-right: 2.5%; */
         margin-top: 5%;
         margin-bottom: 2.5%;
         min-height: 65%;
     }
     .sidebar {
         text-align: center;
-        width: 95%;
-        /* left: 19px; */
+        width: 90%;
+        padding-left: 3%;
+        padding-right: 3%;
+        left: 19px;
         right: 0px;
         background-color: #ffffff;
         /* position: absolute;  */
-        margin-bottom: 5%;
-        margin-right: 2.5%;
-        margin-left: 2.5%;
-        margin-top: 2.5%;
-        top: 90%;
+        /* padding-bottom: 5%; */
+        /* margin-right: 2.5%; */
+        /* margin-left: 2.5%; */
+        padding-top: 2.5%;
+        top: 92%;
       }
     .portfolio {
         position: absolute;
         width: 95%;
         background-color: #ffffff;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        margin-top: 5%;
-        margin-bottom: 2.5%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-top: 5%;
+        padding-bottom: 2.5%;
         min-height: 85%;
     }
     .content {
-        width: 100%;
-        padding-left: 0%;
-        padding-top: 0%;
+        width: 90%;
+        padding-left: 3%;
+        padding-top: 10%;
+        padding-right: 3%;
         margin-right:0%;
         margin-left: 0%;
         margin-top: 0;
@@ -300,11 +323,11 @@ form {
         position: absolute;
         width: 95%;
         background-color: #ffffff;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
+        /* margin-left: 2.5%; */
+        /* margin-right: 2.5%; */
         margin-top: 5%;
         margin-bottom: 2.5%;
-        min-height: 40%;
+        min-height: 30%;
     }
     .box {
         width: 38%;
@@ -386,6 +409,7 @@ form {
     .sidebar {
         min-height: 5%;
         margin-top: 0%;
+        left: 0;
     }
     .box {
         width: 90%;
