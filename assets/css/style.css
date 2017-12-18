@@ -245,6 +245,9 @@ input[type=submit] {
     float: none;
     left: 137px;
   }
+  nav{
+    padding-right: 20px;
+  }
 }
 
 
@@ -273,9 +276,6 @@ input[type=submit] {
     float: left;
     left: 5px;
   }
-  nav {
-    padding-right: 20px;
-  }
 }
 
 
@@ -286,22 +286,24 @@ input[type=submit] {
   max-width: 640px;
 }
 .main-section {
-  left: 9px;
-  max-width: 620px;
+  left: 19px;
+  max-width: 600px;
   }
 .sidebar {
-  max-width: 620px;
-  left: 9px;
+  max-width: 600px;
+  left: 19px;
 }
 #logo {
   display: none;
 }
 nav{
-  float: none;
-  position: relative;
-  left: 160px;
- padding-right: 0;
+  float: left;
+
+}
+.work {
+  left: 140px;
+}
+#masthead {
+  padding-left: 23%;
 }
 }
-
-
