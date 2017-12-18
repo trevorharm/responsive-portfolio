@@ -10,60 +10,68 @@
 </head>
 
 
-
-        
-        <div class="navigation">
-            <ul>
-                <li><a href="index.html">About</a></a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div> 
-
-        <div class="name">
-        <header>Trevor Harm</header>
-        </div>
-       
 <body>
+        
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Trevor Harm</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div> 
+    </header>
+       
+
  
-    <div class="content">
-        <div class="contact">
-            <h2>Contact</h2>
-            <hr id="contactline">
-            <br>
-            <form>
-                <h3>Name:</h3><br>
-                <input type="text" name="Name" value="John Smith"><br>
-                <br>
-                <h3>Email:</h3><br>
-                <input type="text" name="Email" value="someone@domain.com"><br>
-                <br>
-                <h3>Message:</h3><br>
-                <input class="message" type="text" name="Message"><br>
-                <br><br>
-                <input class="button" type="submit" value="Submit">
-              </form> 
-        </div>
-        <div class="sidebar">
-            <h3>Connect With Me</h3>
-            <hr>
-            <a href="https://github.com">
-            <img src="assets/images/if_github.png" width="33%" style="float: left;">
-            </a>
-            <a href="https://linkedin.com">
-            <img src="assets/images/if_linkedin.png" width="33%" style="float:left;">
-            </a>
-            <a href="http://stackoverflow.com">
-            <img src="assets/images/if_Stack_Overflow.png" width="33%" style="float: left;">
-            </a>
-        </div>
-    </div>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
 
-    <div class="footer">
-        <p class="footertext">Designed by Trevor in Charlotte</p>
-    </div>
-</body>
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                    <input type="submit">
+            </form>
+        
+        </section>
 
-</html>
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+                <a href="https://github.com">
+                <img src="assets/images/if_github.png" class="social" alt="Github">
+                </a>
+                <a href="https://linkedin.com">
+                <img src="assets/images/if_linkedin.png" class="social" alt="LinkedIn">
+                </a>
+                <a href="http://stackoverflow.com">
+                <img src="assets/images/if_Stack_Overflow.png" class="social" alt="Stack Overflow">
+                </a>
+            </div>
+        </section>
+    </div>
+        
+        <footer>
+            <div class="container">
+                Designed by Trevor in Charlotte
+            </div>
+        </footer>
+    </body>
+    
+    </html>
 
 
